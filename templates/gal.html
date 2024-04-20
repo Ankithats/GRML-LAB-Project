@@ -1,0 +1,28 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+{% include 'nav.html' %}
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <div class="innerpage-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div style="z-index: 0; position:relative;margin-top:-5%; background-image: linear-gradient(white, rgb(238, 239, 246)) ;margin-left:0%;" class="col-lg-6">
+                    <div  class="innerpage-banner-heading">
+                        <span>
+                            <h2 style="margin-top: 30%;margin-left:10%;font-weight:bold;font-family:Oswald, sans-serif;font-size:60px;font-weight:200;">Gallery</h2>
+                                                        <p style="margin-left: 10%;">Step into the visual journey of GMRL Labs in Tripunithura—a gallery<br />showcasing our commitment to health and excellence.</p>
+                                                </span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                <img style="z-index: 0; position:relative;margin-top:-13%;margin-left:-3%;"width="770" height="550" src="{% static 'images/banner4.jpg' %}" class="attachment-large size-large" alt="Gmrl" decoding="async" fetchpriority="high" />			</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

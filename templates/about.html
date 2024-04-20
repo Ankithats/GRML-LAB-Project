@@ -1,0 +1,54 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+{% include 'nav.html' %}
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <div class="innerpage-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div style="z-index: 0; position:relative;margin-top:-5%; background-image: linear-gradient(white, rgb(238, 239, 246)) ;margin-left:0%;" class="col-lg-6">
+                    <div  class="innerpage-banner-heading">
+                        <span>
+                            <h2 style="margin-top: 30%;margin-left:10%;font-weight:bold;font-family:Oswald, sans-serif;font-size:60px;font-weight:200;">About Us</h2>
+                                                        <p style="margin-left: 10%;">GMRL Labs: Tripunithura's hub for affordable Health Check Ups<br />with cutting-edge analyzers, prioritizing your well-being.</p>
+                                                </span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                <img style="z-index: 0; position:relative;margin-top:-13%;margin-left:-3%;"width="773" height="500" src="{% static 'images/banner1.jpg' %}" class="attachment-large size-large" alt="Gmrl" decoding="async" fetchpriority="high" />			</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <div style="margin-top: 7%;" class="container-fluid">
+            
+            <div  class="row">
+                <div  class="col-lg-7">
+                
+                
+                    <div class="flaa">
+                        <p  style="margin-left:15%" >Welcome to GMRL Laboratories, your premier destination for comprehensive and affordable<br> health check-up packages situated in the heart of Thrippunithura. At GMRL, we pride<br> ourselves on a commitment to excellence in healthcare, evident through our state-of-the-art, <br>fully automated analyzers. These cutting-edge instruments undergo daily verification against<br> Biorad USA Quality Controls, ensuring not only the accuracy but also the reliability of your<br> diagnostic results.</p>
+                        <p  style="margin-left:15%">Our dedicated team of professionals is here to guide you through every step of your health assessment journey. With a mission to provide the highest standard of care and convenience, we prioritize your well-being. GMRL Laboratories stands as a trusted partner on your path to a healthier and happier life. Whether you seek routine health check-ups or specialized diagnostics, our facility is equipped to meet your diverse healthcare needs.</p>
+                        <p  style="margin-left:15%">Experience peace of mind as you entrust your health to GMRL Laboratories, where precision, affordability, and a commitment to your well-being converge. Your journey to optimal health begins here.</p>
+                     </div>
+                
+            
+            </div>
+                <div  class="col-lg-5">
+                 <img style="border-radius: 1%;height: 420px;width: 480px;margin-left:6%" src="{% static 'images/welcome-image.jpg' %}" alt="">
+                </div>
+                    
+                </div>
+
+
+        </div>
+{% endblock %}

@@ -1,0 +1,151 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    {% include 'nav.html' %}
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <div class="innerpage-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div style="z-index: 0; position:relative;margin-top:-5%; background-image: linear-gradient(white, rgb(238, 239, 246)) ;margin-left:0%;" class="col-lg-6">
+                    <div  class="innerpage-banner-heading">
+                        <span>
+                            <h2 style="margin-top: 30%;margin-left:10%;font-weight:bold;font-family:Oswald, sans-serif;font-size:60px;font-weight:200;">Contact Us</h2>
+                                                        <p style="margin-left: 10%;">Connect with GMRL Labs for personalized health solutions – <br />
+    your well-being is just a call away.</p>
+                                                </span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                <img style="z-index: 0; position:relative;margin-top:-7%;margin-left:-3%;"width="770" height="440" src="{% static 'images/banner2.jpg' %}" class="attachment-large size-large" alt="Gmrl" decoding="async" fetchpriority="high" />			</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="margin-top: 3%;" class="container-fluid">
+        <div class=" d-flex flex-wrap justify-content-center peie my-0 mx-0 pt-5 mt-3">
+            <div  class="card ms-0 my-2 mx-3 cnt" style="width: 280px;height:230px;border-radius:0%;margin-left:0%;">
+             
+                <div class="kk">
+                    <h3  style= "color:white;font-size:35px;" ><i class='bx bxs-phone' ></i></h3>
+               
+                </div>
+                  <h5  class="mx-auto" style="color:rgb(35, 35, 35);margin-top:1%;font-weight:400;">Phone</h5>
+                  <p class="mx-auto my-0">+91 81388 62626</p>
+                  <p class="mx-auto my-0">0484 0000 0000</p>
+             </div>
+     
+             <div class="card my-2 mx-3 cnt" style="width: 280px;height:230px;border-radius:0%;margin-left:0%;">
+                <div class="kk">
+                  <h3  style= "color:white;font-size:35px;" ><i class='bx bx-envelope'></i></h3>
+           
+                </div>
+                  <h5  class="mx-auto" style="color:rgb(35, 35, 35);margin-top:1%;font-weight:400;">Email</h5>
+                  <p class="mx-auto my-0">info@gmrllabs.com</p>
+                  
+       
+              
+              </div>
+     
+               <div class="card my-2 mx-3 cnt"style="width: 280px;height:230px;border-radius:0%;margin-left:0%;">
+                
+                    <div class="kk">
+                       <h3  style= "color:white;font-size:35px;" ><i class='bx bxs-map'></i></h3>
+             
+                    </div>
+                      <h5  class="mx-auto" style="color:rgb(35, 35, 35);margin-top:1%;font-weight:400;">Address</h5>
+                      <p class="mx-auto my-0">GMRL Laboratories Chambakkara,</p>
+                      <p class="mx-auto my-0">Ernakulam, Ernakulam - 682011</p>
+         
+                  
+                </div>
+                 
+               <div class="card my-2 mx-3 cnt" style="width: 280px;height:230px;border-radius:0%;margin-left:0%;">
+                <div class="kk">
+                  <h3  style= "color:white;font-size:35px;" ><i class='bx bx-time-five'></i></h3>
+        
+                </div>
+                 <h5  class="mx-auto" style="color:rgb(35, 35, 35);margin-top:1%;font-weight:400;">Opening Hours</h5>
+                 <p class="mx-auto my-0">Mon - Sat : 6:30pm to 6:00pm</p>
+                 <p class="mx-auto my-0">Sun : 6:30am - 12:30pm</p>
+    
+                </div>
+               
+          </div>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div style="background-color:#e4e8f3 ;margin-top:10%;height:550px;" class="container-fluid"> 
+
+      <div class="row">
+        <div  class="col-lg-5">
+          <img  style="width:450px;height:380px;box-sizing: border-box;border-radius:1%;margin-top:12%;margin-left:18%;" src="{% static 'images/package4 (1).jpg' %}" alt="">
+           
+        </div>
+        <div class="col-lg-7">
+        <h2 style="margin-top: 8%;font-weight: 400;">Send us a message</h2>
+        <p>Connect with us and share your thoughts – your message matters to us.</p>
+
+        <div class="contact" >
+  
+          <form action="#">
+           <div class="input-box">
+             <input style="width:290px;margin-left: 1%" type="text" placeholder="Your Name">
+             <input  style="margin-left: 3%;width:290px;" type="email" placeholder="Email ">
+           </div>
+           <div class="input-box">
+             <input style="margin-top: 3%;width:290px;margin-left: 1%" type="number" placeholder="Phone">
+             <input style="margin-left: 3%;width:290px;" type="text" placeholder="Subject">
+           </div>
+           <textarea style="margin-top: 3%;border-color:#e4e8f3;padding-left:1%;" name="" id="" cols="80" rows="5" placeholder=" Message"></textarea>
+          </form>
+           <button  style="  background-color:#22419c;box-sizing: border-box; border-radius: 4px;  border: none;color:white;  width:150px; height: 40px;margin-top:1%;" class="sbb"  type="submit" >SUBMIT</button>
+          
+       
+    </div>
+    
+    </div>
+    </div>
+  </div>
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div style="height:70px;" class="container-fluid">
+
+  
+    <div style="margin-top: 10%;margin-left:10%;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15719.10688618274!2d76.3233879!3d9.9525263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0873f5f90cc883%3A0x6b02b06cd62db722!2sGMRL%20Laboratories%20Chambakkara!5e0!3m2!1sen!2sin!4v1713508438046!5m2!1sen!2sin" width="1200" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+    
+{% endblock %}
