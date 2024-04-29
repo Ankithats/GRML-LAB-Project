@@ -48,7 +48,7 @@
                 
                 </div>
 
-                <div class="col-lg-2 w1   mx-2">
+                <div class="col-lg-2 w1 ms-0   ms-5">
                         <h4 style="color: rgb(47, 47, 47);font-weight:400;">Quick Links</h4>
                         <p style="margin-top: 10%;margin-bottom:0%;"  >Home</p>
                         <p class="my-0" >About Us</p>
@@ -56,7 +56,9 @@
                         <p class="my-0" >Tests</p>
                         <p class="my-0" >Gallery</p>
                         <p class="my-0" >Blog</p>
-                        <p class="my-0" >Testimonials</p>
+                        <a href="{% url 'app:mon' %}">
+                        <p style="margin-left: -70%;" class="my-0" >Testimonials</p>
+                       </a>
                         <p class="my-0" >Branches</p>
                         <p class="my-0" >Contact Us</p>
                         <p class="my-0" >Privacy Policy</p>
@@ -64,17 +66,31 @@
                     </div>
 
                 
-                    <div class="col-lg-2 w1 mx-2">
-                        <h4 style="color: rgb(47, 47, 47);font-weight:400;">Departments</h4>
-                        
-                        <p style="margin-top: 10%;margin-bottom:0%;">Pathology</p> 
+                    <div class="col-lg-2 w1  ms-0">
+                        <h4 style="color: rgb(47, 47, 47);font-weight:400;margin-left:12%;">Departments</h4>
+                        <a href="{% url 'app:dep' %}">
+                        <p style="margin-top: 10%;margin-bottom:0%;">Pathology</p>
+                        </a>
+                        <a href="{% url 'app:dep' %}">
                         <p class="my-0">Biochemistry</p>
+                        </a> 
+                        <a href="{% url 'app:dep' %}">
                         <p class="my-0">Microbiology</h6>
+                        </a>
+                        <a href="{% url 'app:dep' %}">
                         <p class="my-0">Serology</h6>
+                        </a>
+                        <a href="{% url 'app:dep' %}">
                         <p class="my-0">Immunology</p>
-                        <p class="my-0">Radiology</p>
+                       </a>
+                       
+                        <a href="{% url 'app:dep' %}">
+                        <p style="margin-left: -100%;" class="my-0">Radiology</p>
+                        </a>
+
+                        <a href="{% url 'app:dep' %}">
                         <p class="my-0">Molecular Biology</p>
-                            
+                        </a>
                         </div>
 
 

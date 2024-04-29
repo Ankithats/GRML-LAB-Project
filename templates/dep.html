@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+{% include 'nav.html' %}
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <div class="innerpage-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div style="z-index: 0; position:relative;margin-top:-5%; background-image: linear-gradient(white, rgb(238, 239, 246)) ;margin-left:0%;" class="col-lg-6">
+                    <div  class="innerpage-banner-heading">
+                        <span>
+                            <h2 style="margin-top: 30%;margin-left:10%;font-weight:300;font-family:Oswald, sans-serif;font-size:60px;">Departments</h2>
+                                                        <p style="margin-left: 10%;">GMRL Labs in Tripunithura excels in various health departments,<br />prioritizing your well-being with precision and care.</p>
+                                                </span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                <img style="z-index: 0; position:relative;margin-top:-13%;margin-left:-3%;"width="770" height="550" src="{% static 'images/banner3.jpg' %}" class="attachment-large size-large" alt="Gmrl" decoding="async" fetchpriority="high" />			</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="height: 2000px;" class="container-fluid">
+        <div style="margin-top:8%;" class="container">
+
+            <div class="row">
+
+                <div class="col-lg-8">
+                        <h6 style="margin-left:6%;margin-top:15%;font-size:25px;font-weight:400;color:black;" >Pathology</h6>
+                        <p style="margin-left:6%;margin-top:2%;" >Embark on a journey of diagnostic precision with GMRL Laboratories’ Pathology Department. Our cutting-edge technology and expert pathologists ensure accurate and timely results, prioritizing your health and well-being. From routine tests to specialized analyses, trust us for excellence in pathology services.</p>
+
+                </div>
+                <div class="col-lg-4">
+                    <img style="width: 380px;height:320px; margin-left:2%;" src="{% static 'images/banner-02.jpg' %}" alt="">
+
+                </div>
+                <div style="background-color: #e4e8f3;;margin-left:5%;" class="col-lg-4">
+                    <img style="width: 380px;height:320px;margin-left:-3%; " src="{% static 'images/package3.jpg' %}" alt="">
+
+                </div>
+                <div style="margin-left: 0%;background-color:#e4e8f3;;width:774px;" class="col-lg-7">
+                    <h6 style="margin-top:10%;font-size:25px;font-weight:400;color:black;" >Biochemistry</h6>
+                    <p style="margin-top:2%;" >Explore the realm of biochemical insights at GMRL Laboratories. Our Biochemistry Department<br> combines advanced technology and expert analysis to provide comprehensive assessments,<br> contributing to your overall health and well-being. From metabolic screenings to specialized tests,<br> we’re dedicated to delivering precise and timely results.</p>
+
+            </div>
+            <div class="col-lg-8">
+                <h6 style="margin-left:6%;margin-top:10%;font-size:25px;font-weight:400;color:black;" >Microbiology</h6>
+                <p style="margin-left:6%;margin-top:2%;" >Dive into the world of microbial analysis with GMRL Laboratories’ Microbiology Department. Our state-of-the-art facilities and skilled microbiologists ensure thorough and accurate assessments, playing a crucial role in your health journey. From infectious disease screenings to specialized microbiological tests, trust us for meticulous and reliable results.</p>
+
+        </div>
+        <div class="col-lg-4">
+            <img style="width: 380px;height:320px; margin-left:2%;" src="{% static 'images/package5.jpg' %}" alt="">
+
+        </div>
+        <div style="background-color: #e4e8f3;;margin-left:5%;" class="col-lg-4">
+            <img style="width: 380px;height:320px;margin-left:-3%; " src="{% static 'images/package2.jpg' %}" alt="">
+
+        </div>
+        <div style="margin-left: 0%;background-color:#e4e8f3;;width:774px;" class="col-lg-7">
+            <h6 style="margin-top:10%;font-size:25px;font-weight:400;color:black;" >Serology</h6>
+            <p style="margin-top:2%;" >Experience meticulous serological testing at GMRL Laboratories. Our Serology Department<br> combines advanced techniques with expert analysis to deliver accurate and timely results,<br> contributing to a comprehensive understanding of your health profile. Trust us for reliable<br> serological assessments tailored to your specific needs.</p>
+
+    </div>
+    <div class="col-lg-8">
+        <h6 style="margin-left:6%;margin-top:10%;font-size:25px;font-weight:400;color:black;" >Immunology</h6>
+        <p style="margin-left:6%;margin-top:2%;" >Dive into the realm of immune system analysis with GMRL Laboratories’ Immunology Department. Our advanced technology and skilled immunologists work in tandem to provide precise assessments, offering valuable insights into your immune health. From routine screenings to specialized immunological tests, trust us for accurate and comprehensive results on your path to well-being.</p>
+
+</div>
+<div class="col-lg-4">
+    <img style="width: 380px;height:320px; margin-left:2%;" src="{% static 'images/package4.jpg' %}" alt="">
+
+</div>
+<div style="background-color: #e4e8f3;;margin-left:5%;" class="col-lg-4">
+    <img style="width: 380px;height:320px;margin-left:-3%; " src="{% static 'images/executive-package.jpg' %}" alt="">
+
+</div>
+<div style="margin-left: 0%;background-color:#e4e8f3;;width:774px;" class="col-lg-7">
+    <h6 style="margin-top:10%;font-size:25px;font-weight:400;color:black;" >Radiology</h6>
+    <p style="margin-top:2%;" >Experience cutting-edge imaging services at GMRL Laboratories’ Radiology Department. Our <br>state-of-the-art equipment and skilled radiologists ensure accurate diagnostics, offering a detailed <br>perspective on your health. From X-rays to advanced imaging modalities, trust us for<br> comprehensive and precise radiological assessments tailored to your healthcare needs.</p>
+
+</div>
+
+
+<div class="col-lg-8">
+    <h6 style="margin-left:6%;margin-top:15%;font-size:25px;font-weight:400;color:black;" >Molecular Biology</h6>
+    <p style="margin-left:6%;margin-top:2%;" >Dive into the intricate world of genetic analysis with GMRL Laboratories’ Molecular Biology Department. Utilizing advanced molecular techniques, our expert scientists provide precise assessments, unraveling insights into your genetic makeup. Trust us for comprehensive molecular diagnostics, contributing to a deeper understanding of your health profile and personalized care.</p>
+
+</div>
+<div class="col-lg-4">
+<img style="width: 380px;height:320px; margin-left:2%;" src="{% static 'images/banner-02.jpg' %}" alt="">
+
+</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    {% endblock %}

@@ -10,4 +10,7 @@ urlpatterns = [
     path('package/',views.package,name='package'),
     path('blog/',views.blog,name='blog'),
     path('gal/',views.gal,name='gal'),
+    path('make/',views.make,name='make'),
+    path('dep/',views.dep,name='dep'),
+    path('mon/',views.mon,name='mon'),
 ]

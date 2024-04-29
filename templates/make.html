@@ -1,0 +1,93 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+{% include 'nav.html' %}
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <div class="innerpage-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div style="z-index: 0; position:relative;margin-top:-5%; background-image: linear-gradient(white, rgb(238, 239, 246)) ;margin-left:0%;" class="col-lg-6">
+                    <div  class="innerpage-banner-heading">
+                        <span>
+                            <h2 style="margin-top: 30%;margin-left:10%;font-weight:300;font-family:Oswald, sans-serif;font-size:60px;">Make An Appointment</h2>
+                                                        <p style="margin-left: 10%;">Schedule your appointment today for personalized care and<br />comprehensive health assessments.</p>
+                                                </span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                <img style="z-index: 0; position:relative;margin-top:-13%;margin-left:-3%;"width="770" height="550" src="{% static 'images/banner3.jpg' %}" class="attachment-large size-large" alt="Gmrl" decoding="async" fetchpriority="high" />			</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div style="height:600px;" class="container-fluid">
+
+        <div style="margin-top: 7%;width:600px;" class="container">
+            <h5 style="text-align: center;font-weight:400;font-size:26px;" >Book a Home Visit</h5>
+            <p style="text-align: center;" >Experience personalized care with our expert team—schedule your appointment for comprehensive health assessments and proactive well-being.</p>
+
+    <form style="margin-top: 10%;" class="row g-3">
+        <div class="col-12">
+            <label for="inputname" class="form-label">Your name</label>
+            <input type="text" class="form-control" id="inputname" >
+          </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputphone" class="form-label">Phone</label>
+          <input type="integer" class="form-control" id="inputPhone">
+        </div>
+        <div class="col-md-6">
+            <label for="inputdate" class="form-label">Date</label>
+            <input type="datetime-local" class="form-control" id="inputdate">
+          </div>
+          <div class="col-md-6">
+            <label for="inputtime" class="form-label">Time</label>
+            <input type="time" class="form-control" id="inputtime">
+          </div>
+          <div class="col-md-6">
+            <label for="inputage" class="form-label">Age</label>
+            <input type="number" class="form-control" id="inputage">
+          </div>
+          <div class="col-md-6">
+            <label for="inputgent" class="form-label">Gender</label>
+                <select id="inputgent" class="form-select">
+                 <option selected>-please choose an option-</option>
+                 <option>Male</option>
+                 <option>Female</option>
+                </select>
+          </div>
+        <div class="col-12">
+            <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+            <label for="exampleFormControlTextarea2" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+        </div>
+        
+        <div class="col-12">
+          <button style="margin-left: 37%;width: 180px;font-size:16px;height:45px;" type="submit" class="button-8">SUBMIT</button>
+        </div>
+      </form>
+
+    </div>
+   </div>
+
+
+
+   
+   {% endblock %}

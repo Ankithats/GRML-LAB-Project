@@ -133,6 +133,7 @@ strong{
 
 
 
+
 .scrolled {
     width: 100%; /* Adjust the width of the navbar when scrolled */
     top:0;
@@ -702,3 +703,84 @@ strong{
   grid-template-columns: 1fr; 
  
 }
+.w h3{
+  color: white;
+  background-color: #85ba32;
+  background-size: contain;
+  width: 380px;
+  font-size: 20px;
+  height: 33px;
+  font-weight: 400;
+  padding-top: 1%;
+  padding-left: 3%;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+
+}
+.w h4{
+  color:#22419c;
+  font-size: 21px;
+  font-weight: 400;
+}
+.w p{
+  padding-left: 3%;
+  margin-bottom: 1%;
+}
+.sss{
+  background-color:#e4e8f3;
+  height: 32px;
+  padding-top: 1%;
+  width: 380px;
+}
+
+
+
+
+.ner {
+  position: relative;
+  width: 300px;
+  height: 280px;
+ 
+}
+
+.imae {
+  display: block;
+  width: 100%;
+  height: 280px;
+}
+
+.ov {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#22419c;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 0.8;
+}
+
+.ner:hover .ov{
+  width: 100%;
+  
+}
+
+.tet {
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+

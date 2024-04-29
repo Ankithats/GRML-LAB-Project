@@ -20,3 +20,12 @@ def blog(req):
 def gal(req):
     return render(req,'gal.html')
 
+def make(req):
+    return render(req,'make.html')
+def dep(req):
+    return render(req,'dep.html')
+def mon(req):
+    return render(req,'mon.html')
+
+
+
